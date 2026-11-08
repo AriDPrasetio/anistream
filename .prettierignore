@@ -1,0 +1,6 @@
+# Abaikan folder dependesni dan build
+node_modules/
+dist/
+package-lock.json
+# Abaikan berkas Git internal
+.git/
