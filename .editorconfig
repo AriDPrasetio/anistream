@@ -1,0 +1,14 @@
+# EditorConfig membantu developer mendefinisikan dan memelhara gaya coding yang konsisten antar editor
+root = true
+# Pengaturan bawaan untuk seluruh jenis berkas
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+# Pengecualian khusus untuk berkas markdown
+# (Di markdown, dua spasi di akhir baris digunakan untuk baris baru manual)
+[*.md]
+trim_trailing_whitespace = false
