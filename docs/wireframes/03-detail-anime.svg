@@ -1,0 +1,394 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1860" height="2250" viewBox="0 0 1860 2250">
+  <rect x="0" y="0" width="1860" height="2250" fill="#F3F4F6"/>
+
+  <!-- Top Sheet Header -->
+  <g id="sheet-header">
+    <rect x="0" y="0" width="1860" height="104" fill="#FFFFFF"/>
+    <line x1="0" y1="104" x2="1860" y2="104" stroke="#D1D5DB" stroke-width="2"/>
+    <text x="60" y="44" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">03. DETAIL ANIME — Route: /anime/:id</text>
+    <text x="60" y="74" font-family="Inter, Arial, sans-serif" font-size="14" fill="#4B5563">Low-Fidelity Wireframe (Mobile-First 375px -&gt; Desktop 1280px) | Fase 0 Langkah 23 | Grayscale Only</text>
+    <g transform="translate(1200, 26)">
+      <rect x="0" y="0" width="600" height="52" rx="6" fill="#F9FAFB" stroke="#D1D5DB" stroke-width="1"/>
+      <text x="20" y="30" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">Poster + Badge Skor • Metadata • Sinopsis Expandable • Watchlist Toggle • Daftar Episode</text>
+    </g>
+  </g>
+
+  <text x="60" y="152" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">BAGIAN 1: PENDEKATAN MOBILE-FIRST (375px) — 4 STATE ANTARMUKA</text>
+
+  <!-- 3A. MOBILE NORMAL -->
+  <g id="mobile-normal" transform="translate(60, 175)">
+    <text x="0" y="-8" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2937">3A. Mobile (375px) — State: Normal</text>
+    <rect x="0" y="0" width="375" height="760" rx="8" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+
+    <!-- Header & Back Bar -->
+    <rect x="0" y="0" width="375" height="56" rx="8" fill="#F9FAFB"/>
+    <line x1="0" y1="56" x2="375" y2="56" stroke="#D1D5DB" stroke-width="1"/>
+    <rect x="16" y="14" width="32" height="28" rx="4" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+    <text x="62" y="33" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">AniStream</text>
+    <text x="16" y="78" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#374151">[← Kembali]</text>
+
+    <!-- Poster + Info Block -->
+    <g transform="translate(16, 90)">
+      <rect x="0" y="0" width="112" height="164" rx="6" fill="#D1D5DB" stroke="#9CA3AF" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="112" y2="164" stroke="#9CA3AF" stroke-width="1"/>
+      <line x1="112" y1="0" x2="0" y2="164" stroke="#9CA3AF" stroke-width="1"/>
+      <rect x="64" y="8" width="40" height="20" rx="4" fill="#374151"/>
+      <text x="84" y="22" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">★ 9.3</text>
+      <rect x="20" y="74" width="72" height="18" rx="3" fill="#F3F4F6"/>
+      <text x="56" y="87" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#4B5563">[Poster 2:3]</text>
+
+      <!-- Right Info -->
+      <text x="126" y="18" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">Sousou no Frieren</text>
+      <text x="126" y="36" font-family="Inter, Arial, sans-serif" font-size="11" fill="#4B5563">Frieren: Beyond Journey&apos;s</text>
+      <text x="126" y="51" font-family="Inter, Arial, sans-serif" font-size="11" fill="#4B5563">End</text>
+      <rect x="126" y="64" width="66" height="22" rx="4" fill="#E5E7EB"/>
+      <text x="159" y="79" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="600" fill="#111827">Finished</text>
+      <rect x="200" y="64" width="66" height="22" rx="4" fill="#E5E7EB"/>
+      <text x="233" y="79" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="600" fill="#111827">28 Ep</text>
+      <text x="126" y="108" font-family="Inter, Arial, sans-serif" font-size="11" fill="#374151">Studio: Madhouse</text>
+      <text x="126" y="126" font-family="Inter, Arial, sans-serif" font-size="11" fill="#374151">Musim: Fall 2023</text>
+      <text x="126" y="144" font-family="Inter, Arial, sans-serif" font-size="11" fill="#374151">Tipe: TV • 24 mnt/ep</text>
+    </g>
+
+    <!-- Action Buttons -->
+    <rect x="16" y="268" width="343" height="38" rx="6" fill="#374151"/>
+    <text x="187" y="291" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">▶ Tonton Episode 1</text>
+    <rect x="16" y="314" width="214" height="34" rx="6" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+    <text x="123" y="335" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#111827">+ Tambah ke Watchlist</text>
+    <rect x="238" y="314" width="121" height="34" rx="6" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+    <text x="298" y="335" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#111827">🎬 Trailer</text>
+
+    <!-- Genre Chips -->
+    <rect x="16" y="362" width="84" height="24" rx="12" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="1"/>
+    <text x="58" y="378" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#111827">Adventure</text>
+    <rect x="108" y="362" width="66" height="24" rx="12" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="1"/>
+    <text x="141" y="378" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#111827">Drama</text>
+    <rect x="182" y="362" width="72" height="24" rx="12" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="1"/>
+    <text x="218" y="378" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#111827">Fantasy</text>
+
+    <!-- Expandable Synopsis -->
+    <text x="16" y="410" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Sinopsis</text>
+    <text x="16" y="430" font-family="Inter, Arial, sans-serif" font-size="11" fill="#374151">Setelah sepuluh tahun berpetualang mengalahkan</text>
+    <text x="16" y="446" font-family="Inter, Arial, sans-serif" font-size="11" fill="#374151">Raja Iblis bersama kelompok pahlawan, penyihir elf</text>
+    <text x="16" y="462" font-family="Inter, Arial, sans-serif" font-size="11" fill="#374151">Frieren mulai memahami arti waktu bagi manusia...</text>
+    <text x="16" y="480" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#111827">[Baca selengkapnya ▾]</text>
+
+    <!-- Episode Button List (4 Columns) -->
+    <text x="16" y="516" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Daftar Episode (28)</text>
+    <text x="359" y="516" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="10" fill="#4B5563">Hal 1 ▾</text>
+
+    <rect x="16" y="528" width="79" height="36" rx="4" fill="#374151"/>
+    <text x="55" y="550" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">Ep 1</text>
+    <rect x="103" y="528" width="79" height="36" rx="4" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+    <text x="142" y="550" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#111827">Ep 2</text>
+    <rect x="190" y="528" width="79" height="36" rx="4" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+    <text x="229" y="550" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#111827">Ep 3</text>
+    <rect x="277" y="528" width="79" height="36" rx="4" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+    <text x="316" y="550" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#111827">Ep 4</text>
+
+    <rect x="16" y="574" width="79" height="36" rx="4" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+    <text x="55" y="596" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#111827">Ep 5</text>
+    <rect x="103" y="574" width="79" height="36" rx="4" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+    <text x="142" y="596" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#111827">Ep 6</text>
+    <rect x="190" y="574" width="79" height="36" rx="4" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+    <text x="229" y="596" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#111827">Ep 7</text>
+    <rect x="277" y="574" width="79" height="36" rx="4" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+    <text x="316" y="596" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#111827">Ep 8</text>
+
+    <!-- Related Section Hint -->
+    <text x="16" y="644" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Rekomendasi Terkait</text>
+    <rect x="16" y="656" width="106" height="44" rx="4" fill="#E5E7EB"/>
+    <rect x="130" y="656" width="106" height="44" rx="4" fill="#E5E7EB"/>
+    <rect x="244" y="656" width="106" height="44" rx="4" fill="#E5E7EB"/>
+
+    <rect x="0" y="712" width="375" height="48" rx="8" fill="#F9FAFB"/>
+    <line x1="0" y1="712" x2="375" y2="712" stroke="#D1D5DB" stroke-width="1"/>
+    <text x="187" y="740" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#4B5563">Footer</text>
+  </g>
+
+  <!-- 3B. MOBILE LOADING -->
+  <g id="mobile-loading" transform="translate(515, 175)">
+    <text x="0" y="-8" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2937">3B. Mobile (375px) — State: Loading (Skeleton)</text>
+    <rect x="0" y="0" width="375" height="760" rx="8" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+
+    <rect x="0" y="0" width="375" height="56" rx="8" fill="#F9FAFB"/>
+    <line x1="0" y1="56" x2="375" y2="56" stroke="#D1D5DB" stroke-width="1"/>
+    <text x="62" y="33" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">AniStream</text>
+
+    <rect x="16" y="90" width="112" height="164" rx="6" fill="#E5E7EB"/>
+    <rect x="142" y="94" width="200" height="20" rx="4" fill="#D1D5DB"/>
+    <rect x="142" y="122" width="140" height="14" rx="4" fill="#E5E7EB"/>
+    <rect x="142" y="152" width="64" height="22" rx="4" fill="#E5E7EB"/>
+    <rect x="214" y="152" width="64" height="22" rx="4" fill="#E5E7EB"/>
+    <rect x="142" y="190" width="160" height="12" rx="3" fill="#E5E7EB"/>
+    <rect x="142" y="210" width="130" height="12" rx="3" fill="#E5E7EB"/>
+
+    <rect x="16" y="268" width="343" height="38" rx="6" fill="#D1D5DB"/>
+    <rect x="16" y="314" width="214" height="34" rx="6" fill="#E5E7EB"/>
+    <rect x="238" y="314" width="121" height="34" rx="6" fill="#E5E7EB"/>
+
+    <rect x="16" y="396" width="90" height="16" rx="3" fill="#D1D5DB"/>
+    <rect x="16" y="422" width="343" height="12" rx="3" fill="#E5E7EB"/>
+    <rect x="16" y="440" width="330" height="12" rx="3" fill="#E5E7EB"/>
+    <rect x="16" y="458" width="260" height="12" rx="3" fill="#E5E7EB"/>
+
+    <rect x="16" y="502" width="130" height="16" rx="3" fill="#D1D5DB"/>
+    <rect x="16" y="528" width="79" height="36" rx="4" fill="#E5E7EB"/>
+    <rect x="103" y="528" width="79" height="36" rx="4" fill="#E5E7EB"/>
+    <rect x="190" y="528" width="79" height="36" rx="4" fill="#E5E7EB"/>
+    <rect x="277" y="528" width="79" height="36" rx="4" fill="#E5E7EB"/>
+    <rect x="16" y="574" width="79" height="36" rx="4" fill="#E5E7EB"/>
+    <rect x="103" y="574" width="79" height="36" rx="4" fill="#E5E7EB"/>
+    <rect x="190" y="574" width="79" height="36" rx="4" fill="#E5E7EB"/>
+    <rect x="277" y="574" width="79" height="36" rx="4" fill="#E5E7EB"/>
+
+    <rect x="0" y="712" width="375" height="48" rx="8" fill="#F9FAFB"/>
+    <line x1="0" y1="712" x2="375" y2="712" stroke="#D1D5DB" stroke-width="1"/>
+  </g>
+
+  <!-- 3C. MOBILE EMPTY -->
+  <g id="mobile-empty" transform="translate(970, 175)">
+    <text x="0" y="-8" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2937">3C. Mobile (375px) — State: Empty (Episode Belum Ada)</text>
+    <rect x="0" y="0" width="375" height="760" rx="8" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+
+    <rect x="0" y="0" width="375" height="56" rx="8" fill="#F9FAFB"/>
+    <line x1="0" y1="56" x2="375" y2="56" stroke="#D1D5DB" stroke-width="1"/>
+    <text x="62" y="33" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">AniStream</text>
+    <text x="16" y="78" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#374151">[← Kembali]</text>
+
+    <!-- Anime Upcoming Info Loaded -->
+    <g transform="translate(16, 90)">
+      <rect x="0" y="0" width="112" height="164" rx="6" fill="#D1D5DB" stroke="#9CA3AF" stroke-width="1.5"/>
+      <rect x="64" y="8" width="40" height="20" rx="4" fill="#6B7280"/>
+      <text x="84" y="22" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">TBA</text>
+      <text x="126" y="20" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">Anime Upcoming 2027</text>
+      <rect x="126" y="36" width="90" height="22" rx="4" fill="#E5E7EB"/>
+      <text x="171" y="51" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="600" fill="#111827">Not Yet Aired</text>
+      <text x="126" y="80" font-family="Inter, Arial, sans-serif" font-size="11" fill="#4B5563">Episode: Belum rilis</text>
+      <text x="126" y="98" font-family="Inter, Arial, sans-serif" font-size="11" fill="#4B5563">Sinopsis belum tersedia.</text>
+    </g>
+
+    <rect x="16" y="268" width="343" height="36" rx="6" fill="#374151"/>
+    <text x="187" y="290" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">+ Simpan ke Watchlist (Pantau Rilis)</text>
+
+    <!-- Empty Episode Box -->
+    <text x="16" y="340" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Daftar Episode</text>
+    <rect x="16" y="354" width="343" height="210" rx="8" fill="#F9FAFB" stroke="#6B7280" stroke-width="1.5" stroke-dasharray="6 4"/>
+    <circle cx="187" cy="406" r="26" fill="#E5E7EB"/>
+    <text x="187" y="454" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#111827">Episode Belum Tersedia</text>
+    <text x="187" y="476" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#4B5563">Judul ini belum tayang atau API belum</text>
+    <text x="187" y="492" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#4B5563">memiliki daftar episode untuk diputar.</text>
+    <rect x="97" y="512" width="180" height="32" rx="6" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+    <text x="187" y="532" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#111827">Jelajahi Judul Lain</text>
+
+    <rect x="0" y="712" width="375" height="48" rx="8" fill="#F9FAFB"/>
+    <line x1="0" y1="712" x2="375" y2="712" stroke="#D1D5DB" stroke-width="1"/>
+  </g>
+
+  <!-- 3D. MOBILE ERROR -->
+  <g id="mobile-error" transform="translate(1425, 175)">
+    <text x="0" y="-8" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2937">3D. Mobile (375px) — State: Error / 404 ID</text>
+    <rect x="0" y="0" width="375" height="760" rx="8" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+
+    <rect x="0" y="0" width="375" height="56" rx="8" fill="#F9FAFB"/>
+    <line x1="0" y1="56" x2="375" y2="56" stroke="#D1D5DB" stroke-width="1"/>
+    <text x="62" y="33" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">AniStream</text>
+
+    <rect x="20" y="160" width="335" height="350" rx="8" fill="#F9FAFB" stroke="#374151" stroke-width="2"/>
+    <rect x="157" y="198" width="60" height="52" rx="8" fill="#374151"/>
+    <text x="187" y="232" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">!</text>
+    <text x="187" y="280" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">Detail Anime Gagal Dimuat</text>
+    <text x="187" y="306" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#4B5563">ID anime tidak ditemukan (404) atau</text>
+    <text x="187" y="324" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#4B5563">terjadi kendala jaringan ke Jikan API.</text>
+    <rect x="77" y="358" width="220" height="38" rx="6" fill="#374151"/>
+    <text x="187" y="381" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">↻ Coba Lagi</text>
+    <rect x="87" y="408" width="200" height="34" rx="6" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+    <text x="187" y="429" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#111827">← Kembali ke Beranda</text>
+
+    <rect x="0" y="712" width="375" height="48" rx="8" fill="#F9FAFB"/>
+    <line x1="0" y1="712" x2="375" y2="712" stroke="#D1D5DB" stroke-width="1"/>
+  </g>
+
+  <text x="60" y="988" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">BAGIAN 2: PERLUASAN KE DESKTOP (1280px) &amp; CATATAN INTERAKTIF</text>
+
+  <!-- 3E. DESKTOP NORMAL -->
+  <g id="desktop-normal" transform="translate(60, 1020)">
+    <text x="0" y="-8" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2937">3E. Desktop (1280px) — State: Normal (2-Column Sticky Detail)</text>
+    <rect x="0" y="0" width="1280" height="740" rx="8" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+
+    <rect x="0" y="0" width="1280" height="64" rx="8" fill="#F9FAFB"/>
+    <line x1="0" y1="64" x2="1280" y2="64" stroke="#D1D5DB" stroke-width="1"/>
+    <text x="40" y="39" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" fill="#111827">AniStream</text>
+    <text x="40" y="92" font-family="Inter, Arial, sans-serif" font-size="12" fill="#4B5563">Beranda / Jelajah / Sousou no Frieren</text>
+
+    <!-- Left Column: Poster & Primary Actions -->
+    <g transform="translate(40, 110)">
+      <rect x="0" y="0" width="280" height="390" rx="8" fill="#D1D5DB" stroke="#9CA3AF" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="280" y2="390" stroke="#9CA3AF" stroke-width="1"/>
+      <line x1="280" y1="0" x2="0" y2="390" stroke="#9CA3AF" stroke-width="1"/>
+      <rect x="208" y="14" width="58" height="26" rx="4" fill="#374151"/>
+      <text x="237" y="31" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">★ 9.3</text>
+      <rect x="85" y="182" width="110" height="24" rx="4" fill="#F3F4F6"/>
+      <text x="140" y="198" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#4B5563">[Poster 2:3]</text>
+
+      <rect x="0" y="406" width="280" height="44" rx="6" fill="#374151"/>
+      <text x="140" y="433" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">▶ Tonton Episode 1</text>
+      <rect x="0" y="460" width="280" height="38" rx="6" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+      <text x="140" y="484" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#111827">+ Tambah ke Watchlist</text>
+      <rect x="0" y="508" width="280" height="38" rx="6" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+      <text x="140" y="532" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#111827">🎬 Lihat Trailer YouTube</text>
+    </g>
+
+    <!-- Right Column: Metadata, Synopsis, Episodes, Recommendations -->
+    <g transform="translate(360, 110)">
+      <text x="0" y="28" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">Sousou no Frieren</text>
+      <text x="0" y="54" font-family="Inter, Arial, sans-serif" font-size="14" fill="#4B5563">Frieren: Beyond Journey&apos;s End • 葬送のフリーレン</text>
+
+      <!-- Metadata Badges -->
+      <rect x="0" y="72" width="110" height="26" rx="4" fill="#E5E7EB"/>
+      <text x="55" y="89" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#111827">Finished Airing</text>
+      <rect x="120" y="72" width="88" height="26" rx="4" fill="#E5E7EB"/>
+      <text x="164" y="89" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#111827">28 Episode</text>
+      <rect x="218" y="72" width="124" height="26" rx="4" fill="#E5E7EB"/>
+      <text x="280" y="89" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#111827">Studio: Madhouse</text>
+      <rect x="352" y="72" width="90" height="26" rx="4" fill="#E5E7EB"/>
+      <text x="397" y="89" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#111827">Fall 2023</text>
+
+      <!-- Genres -->
+      <rect x="0" y="112" width="90" height="26" rx="13" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+      <text x="45" y="129" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#111827">Adventure</text>
+      <rect x="100" y="112" width="76" height="26" rx="13" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+      <text x="138" y="129" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#111827">Drama</text>
+      <rect x="186" y="112" width="80" height="26" rx="13" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+      <text x="226" y="129" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#111827">Fantasy</text>
+
+      <!-- Synopsis -->
+      <text x="0" y="170" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">Sinopsis</text>
+      <text x="0" y="194" font-family="Inter, Arial, sans-serif" font-size="13" fill="#374151">Setelah sepuluh tahun perjalanan mengalahkan Raja Iblis bersama kelompok pahlawan, Frieren yang hidup abadi</text>
+      <text x="0" y="214" font-family="Inter, Arial, sans-serif" font-size="13" fill="#374151">menyaksikan rekan-rekannya menua. Ia memulai perjalanan baru demi memahami ikatan dan waktu manusia...</text>
+      <text x="0" y="236" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#111827">[Baca selengkapnya ▾]</text>
+
+      <!-- Episode Grid (8 cols) -->
+      <text x="0" y="276" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">Daftar Episode (28)</text>
+      <g transform="translate(0, 290)">
+        <rect x="0" y="0" width="96" height="38" rx="4" fill="#374151"/>
+        <text x="48" y="23" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Ep 1</text>
+        <rect x="108" y="0" width="96" height="38" rx="4" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+        <text x="156" y="23" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#111827">Ep 2</text>
+        <rect x="216" y="0" width="96" height="38" rx="4" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+        <text x="264" y="23" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#111827">Ep 3</text>
+        <rect x="324" y="0" width="96" height="38" rx="4" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+        <text x="372" y="23" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#111827">Ep 4</text>
+        <rect x="432" y="0" width="96" height="38" rx="4" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+        <text x="480" y="23" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#111827">Ep 5</text>
+        <rect x="540" y="0" width="96" height="38" rx="4" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+        <text x="588" y="23" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#111827">Ep 6</text>
+        <rect x="648" y="0" width="96" height="38" rx="4" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+        <text x="696" y="23" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#111827">Ep 7</text>
+        <rect x="756" y="0" width="96" height="38" rx="4" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+        <text x="804" y="23" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#111827">Ep 8</text>
+      </g>
+      <g transform="translate(0, 340)">
+        <rect x="0" y="0" width="96" height="38" rx="4" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+        <text x="48" y="23" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#111827">Ep 9</text>
+        <rect x="108" y="0" width="96" height="38" rx="4" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+        <text x="156" y="23" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#111827">Ep 10</text>
+        <rect x="216" y="0" width="96" height="38" rx="4" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+        <text x="264" y="23" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#111827">Ep 11</text>
+        <rect x="324" y="0" width="96" height="38" rx="4" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+        <text x="372" y="23" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#111827">Ep 12</text>
+      </g>
+
+      <!-- Recommendations -->
+      <text x="0" y="420" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">Rekomendasi Terkait</text>
+      <rect x="0" y="434" width="200" height="122" rx="6" fill="#F9FAFB" stroke="#9CA3AF" stroke-width="1"/>
+      <text x="100" y="500" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#4B5563">[Rekomendasi #1]</text>
+      <rect x="216" y="434" width="200" height="122" rx="6" fill="#F9FAFB" stroke="#9CA3AF" stroke-width="1"/>
+      <text x="316" y="500" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#4B5563">[Rekomendasi #2]</text>
+      <rect x="432" y="434" width="200" height="122" rx="6" fill="#F9FAFB" stroke="#9CA3AF" stroke-width="1"/>
+      <text x="532" y="500" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#4B5563">[Rekomendasi #3]</text>
+      <rect x="648" y="434" width="200" height="122" rx="6" fill="#F9FAFB" stroke="#9CA3AF" stroke-width="1"/>
+      <text x="748" y="500" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#4B5563">[Rekomendasi #4]</text>
+    </g>
+
+    <rect x="0" y="684" width="1280" height="56" rx="8" fill="#F9FAFB"/>
+    <line x1="0" y1="684" x2="1280" y2="684" stroke="#D1D5DB" stroke-width="1"/>
+    <text x="40" y="718" font-family="Inter, Arial, sans-serif" font-size="12" fill="#4B5563">Footer</text>
+  </g>
+
+  <!-- Spec Panel -->
+  <g id="spec-panel" transform="translate(1380, 1020)">
+    <text x="0" y="-8" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2937">Spesifikasi Tata Letak &amp; Anomali Data</text>
+    <rect x="0" y="0" width="420" height="740" rx="8" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+    <text x="24" y="36" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">1. Adaptasi Mobile -&gt; Desktop</text>
+    <line x1="24" y1="48" x2="396" y2="48" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="24" y="72" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">• Mobile: Poster kecil + meta bersebelahan,</text>
+    <text x="24" y="92" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">  tombol full-width, grid episode 4 kolom.</text>
+    <text x="24" y="118" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">• Desktop: Kolom kiri sticky (poster + CTA),</text>
+    <text x="24" y="138" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">  kolom kanan info + grid episode 8 kolom.</text>
+
+    <text x="24" y="182" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">2. Penanganan Anomali Data (Mapper)</text>
+    <line x1="24" y1="194" x2="396" y2="194" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="24" y="218" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">• title_english null -&gt; fallback title</text>
+    <text x="24" y="240" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">• score null -&gt; tampilkan &quot;TBA&quot;</text>
+    <text x="24" y="262" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">• episodes null -&gt; &quot;Sedang Tayang&quot;</text>
+    <text x="24" y="284" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">• synopsis null -&gt; pesan fallback ramah</text>
+
+    <text x="24" y="328" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">3. Endpoint API (Jikan v4)</text>
+    <line x1="24" y1="340" x2="396" y2="340" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="24" y="364" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">• GET /anime/{id}/full</text>
+    <text x="24" y="386" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">• GET /anime/{id}/episodes?page={page}</text>
+    <text x="24" y="408" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">• GET /anime/{id}/recommendations</text>
+
+    <text x="24" y="452" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">4. Interaksi Watchlist &amp; Sinopsis</text>
+    <line x1="24" y1="464" x2="396" y2="464" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="24" y="488" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">• Watchlist: toggle &quot;+ Tambah&quot; &lt;-&gt; &quot;✓ Di</text>
+    <text x="24" y="508" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">  Watchlist&quot; + simpan ke localStorage.</text>
+    <text x="24" y="534" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">• Sinopsis: tombol expand memakai</text>
+    <text x="24" y="554" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">  aria-expanded=&quot;true/false&quot;.</text>
+  </g>
+
+  <text x="60" y="1816" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">BAGIAN 3: STATE LOADING, EMPTY, &amp; ERROR PADA VERSI DESKTOP</text>
+
+  <g transform="translate(60, 1845)">
+    <text x="0" y="-8" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2937">3F. Desktop — State: Loading (2-Column Skeleton)</text>
+    <rect x="0" y="0" width="553" height="350" rx="8" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+    <rect x="0" y="0" width="553" height="34" rx="8" fill="#F9FAFB"/>
+    <rect x="20" y="54" width="128" height="190" rx="6" fill="#E5E7EB"/>
+    <rect x="20" y="256" width="128" height="26" rx="4" fill="#D1D5DB"/>
+    <rect x="168" y="54" width="240" height="22" rx="4" fill="#D1D5DB"/>
+    <rect x="168" y="88" width="320" height="14" rx="3" fill="#E5E7EB"/>
+    <rect x="168" y="122" width="365" height="12" rx="3" fill="#E5E7EB"/>
+    <rect x="168" y="142" width="340" height="12" rx="3" fill="#E5E7EB"/>
+    <rect x="168" y="184" width="74" height="26" rx="4" fill="#E5E7EB"/>
+    <rect x="252" y="184" width="74" height="26" rx="4" fill="#E5E7EB"/>
+    <rect x="336" y="184" width="74" height="26" rx="4" fill="#E5E7EB"/>
+    <rect x="420" y="184" width="74" height="26" rx="4" fill="#E5E7EB"/>
+  </g>
+
+  <g transform="translate(653, 1845)">
+    <text x="0" y="-8" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2937">3G. Desktop — State: Empty (Episode Belum Rilis)</text>
+    <rect x="0" y="0" width="553" height="350" rx="8" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+    <rect x="0" y="0" width="553" height="34" rx="8" fill="#F9FAFB"/>
+    <rect x="20" y="54" width="120" height="170" rx="6" fill="#D1D5DB"/>
+    <rect x="20" y="236" width="120" height="28" rx="4" fill="#374151"/>
+    <text x="80" y="254" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">+ Watchlist</text>
+    <text x="160" y="72" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">Anime Upcoming (Skor: TBA)</text>
+    <rect x="160" y="110" width="370" height="160" rx="6" fill="#F9FAFB" stroke="#6B7280" stroke-width="1.5" stroke-dasharray="6 4"/>
+    <text x="345" y="176" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Daftar Episode Belum Tersedia</text>
+    <text x="345" y="198" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#4B5563">Simpan ke Watchlist untuk dipantau saat tayang.</text>
+  </g>
+
+  <g transform="translate(1246, 1845)">
+    <text x="0" y="-8" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2937">3H. Desktop — State: Error / 404</text>
+    <rect x="0" y="0" width="554" height="350" rx="8" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+    <rect x="0" y="0" width="554" height="34" rx="8" fill="#F9FAFB"/>
+    <rect x="97" y="76" width="360" height="220" rx="8" fill="#F9FAFB" stroke="#374151" stroke-width="2"/>
+    <text x="277" y="150" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#111827">Detail Anime Tidak Dapat Dimuat</text>
+    <text x="277" y="174" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#4B5563">ID anime invalid (404) atau API error.</text>
+    <rect x="137" y="216" width="130" height="34" rx="6" fill="#374151"/>
+    <text x="202" y="237" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">↻ Coba Lagi</text>
+    <rect x="279" y="216" width="138" height="34" rx="6" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+    <text x="348" y="237" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#111827">Ke Beranda</text>
+  </g>
+</svg>
